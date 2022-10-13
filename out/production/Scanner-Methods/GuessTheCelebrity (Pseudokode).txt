@@ -1,0 +1,18 @@
+Først hint
+User gætter
+Receive guess
+
+WHILE
+    Is guess = secret Celebrity
+    Eller:
+    er gættet korrekt
+    Hvis Ja
+    Print Congrats
+    Boolean = false
+
+    Is guess != secret Celebrity
+    Hvis Nej
+    Print new hint
+    Guess again
+
+

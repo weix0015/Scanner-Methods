@@ -1,0 +1,19 @@
+Choose random number 1-10
+
+    WHILE bruger ikke har gættet korrekt
+    Ask user about guess?
+    Receive guess
+
+    Is guess == secretNumber
+    Eller:
+    Determine whether guess is correct
+
+    HVIS JA:
+        Print SUCCESS!
+        End program (maybe a boolean?)
+    ELLERS:
+        HVIS gæt < secretNumber
+            print "Too low"
+        ELLERS
+            print "Too high"
+END WHILE (bruger ikke har gættet korrekt)
